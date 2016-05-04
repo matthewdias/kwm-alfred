@@ -4,6 +4,7 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument('--path')
 parser.add_argument('--command')
+parser.add_argument('--script')
 args = parser.parse_args()
 
 if args.path:
@@ -14,5 +15,8 @@ if args.path:
 if args.command:
 	file_ = open('path', 'r')
 	kwm = file_.read() + 'kwmc'
-	print kwm
 	os.system(kwm + ' ' + args.command)
+
+if args.script:
+	scripts = '~/.kwm/scripts/'
+	os.system(scripts + args.script)

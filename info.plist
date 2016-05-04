@@ -8,6 +8,17 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>19026CFB-15B6-48F9-87AC-5FD5415D1C65</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>13486CFD-9A64-4650-B428-277FB4EFF889</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>214533C0-5245-424C-B998-81DD330526CC</key>
 		<array>
 			<dict>
@@ -101,6 +112,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>python kwmalfred.py --script "{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>13486CFD-9A64-4650-B428-277FB4EFF889</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -119,11 +149,40 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>script</string>
+				<key>text</key>
+				<string>Run kwm script</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>19026CFB-15B6-48F9-87AC-5FD5415D1C65</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>13486CFD-9A64-4650-B428-277FB4EFF889</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>19026CFB-15B6-48F9-87AC-5FD5415D1C65</key>
+		<dict>
+			<key>ypos</key>
+			<real>380</real>
+		</dict>
 		<key>214533C0-5245-424C-B998-81DD330526CC</key>
 		<dict>
 			<key>ypos</key>
