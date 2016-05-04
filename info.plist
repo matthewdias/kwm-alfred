@@ -96,7 +96,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>kwm</string>
+				<string>kwmc</string>
 				<key>text</key>
 				<string>Run kwm command</string>
 				<key>withspace</key>
